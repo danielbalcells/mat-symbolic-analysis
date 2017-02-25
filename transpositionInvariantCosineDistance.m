@@ -1,4 +1,10 @@
 function dist = transpositionInvariantCosineDistance(a,b)
+% function dist = transpositionInvariantCosineDistance(a,b)
+%
+% Compute transposition-invariant cosine distance between pitch class
+% distribution vectors a and b. Currently, this is done by taking the cosine
+% distance between a and every possible circular shift of b and returning
+% the minimum of these distances.
     dims = size(a);
     nFeats = dims(2);
     shiftDists = zeros(1,nFeats);
