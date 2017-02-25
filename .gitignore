@@ -3,3 +3,6 @@ miditoolbox
 
 # Ignore audio, MIDI and images
 data
+
+# Ignore MATLAB temporary files
+*.m~
