@@ -6,3 +6,7 @@ data
 
 # Ignore MATLAB temporary files
 *.m~
+
+# Ignore project report
+*.pages
+*.pdf
