@@ -8,7 +8,7 @@ function keySequence = getKeySequence(nmat,wLen,hop)
     offset = 0;
     duration = nmat(end,6);
     nWindows = ceil(duration/hop);
-    keySequence = zeros(nWindows,12);
+    keySequence = zeros(nWindows, 1);
     
     % Slide window over note matrix. Retrieve all MIDI events within the
     % each window and compute pitch class distribution.
