@@ -1,0 +1,5 @@
+# Ignore miditoolbox library
+miditoolbox
+
+# Ignore audio, MIDI and images
+data
