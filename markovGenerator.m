@@ -1,4 +1,6 @@
 function outputnmat = markovGenerator(nmat, nNotes)
+% Generates a sequence of MIDI notes modeling the input note matrix with a
+% first order Markov chain.
     notes = zeros(nNotes,3);
     % Take only MIDI note, velocity and duration in seconds
     simplenmat = nmat(:,[4,5,7]);
